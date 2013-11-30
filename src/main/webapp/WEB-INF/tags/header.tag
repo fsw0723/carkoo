@@ -1,3 +1,6 @@
-<div class="somestyle">
-    This is header
+<div class="row">
+    <div class="logo">
+       this is header
+    </div>
+
 </div>
