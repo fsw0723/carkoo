@@ -2,26 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e403246-d8d7-46c6-a617-ef27632e306c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/productDisplay.tag" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/styles/style-guide.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/styles/header.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carkoo.iml" afterPath="$PROJECT_DIR$/carkoo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/carkoo_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/carkoo_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/header.tag" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/header.tag" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/homepage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/homepage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/menu.tag" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/menu.tag" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/product.tag" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/productDisplay.tag" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/productDisplay.tag" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/styles/style-guide.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/styles/style-guide.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="carkoo.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/homepage.jsp" changelist="2e403246-d8d7-46c6-a617-ef27632e306c" time="1385820206366" ignored="false" />
     <file path="/header.tag" changelist="2e403246-d8d7-46c6-a617-ef27632e306c" time="1385816330866" ignored="false" />
-    <file path="/a.dummy" changelist="2e403246-d8d7-46c6-a617-ef27632e306c" time="1385821565554" ignored="false" />
+    <file path="/a.dummy" changelist="2e403246-d8d7-46c6-a617-ef27632e306c" time="1385823230597" ignored="false" />
     <file path="/mvc-dispatcher-servlet.xml" changelist="2e403246-d8d7-46c6-a617-ef27632e306c" time="1385653527104" ignored="false" />
     <file path="/Dummy.txt" changelist="2e403246-d8d7-46c6-a617-ef27632e306c" time="1385789557302" ignored="false" />
-    <file path="$PROJECT_DIR$/../AirAsiaGo/.idea/workspace.xml" changelist="2e403246-d8d7-46c6-a617-ef27632e306c" time="1385822122471" ignored="false" />
+    <file path="$PROJECT_DIR$/../AirAsiaGo/.idea/workspace.xml" changelist="2e403246-d8d7-46c6-a617-ef27632e306c" time="1385827462224" ignored="false" />
     <file path="/fragment.java" changelist="2e403246-d8d7-46c6-a617-ef27632e306c" time="1385478488069" ignored="false" />
     <file path="/menu.tag" changelist="2e403246-d8d7-46c6-a617-ef27632e306c" time="1385819630389" ignored="false" />
     <file path="/header.css" changelist="2e403246-d8d7-46c6-a617-ef27632e306c" time="1385816310001" ignored="false" />
@@ -32,8 +25,9 @@
     <file path="$PROJECT_DIR$/../AirAsiaGo/domain/src/main/java/com/airasiago/domain/booking/HotelProduct.java" changelist="2e403246-d8d7-46c6-a617-ef27632e306c" time="1385789567096" ignored="false" />
     <file path="/*.regexp" changelist="2e403246-d8d7-46c6-a617-ef27632e306c" time="1385789956423" ignored="false" />
     <file path="/pom.xml" changelist="2e403246-d8d7-46c6-a617-ef27632e306c" time="1385821475457" ignored="false" />
-    <file path="/style-guide.css" changelist="2e403246-d8d7-46c6-a617-ef27632e306c" time="1385820339828" ignored="false" />
-    <file path="/productDisplay.tag" changelist="2e403246-d8d7-46c6-a617-ef27632e306c" time="1385821202863" ignored="false" />
+    <file path="/style-guide.css" changelist="2e403246-d8d7-46c6-a617-ef27632e306c" time="1385827382863" ignored="false" />
+    <file path="/productDisplay.tag" changelist="2e403246-d8d7-46c6-a617-ef27632e306c" time="1385826588161" ignored="false" />
+    <file path="/product.tag" changelist="2e403246-d8d7-46c6-a617-ef27632e306c" time="1385822430831" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +100,7 @@
       <file leaf-file-name="menu.tag" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/menu.tag">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="3" selection-start="159" selection-end="205" vertical-scroll-proportion="-5.0">
+            <state line="1" column="44" selection-start="40" selection-end="40" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
@@ -121,10 +115,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style-guide.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style-guide.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/static/styles/style-guide.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="20" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
+            <state line="10" column="13" selection-start="138" selection-end="138" vertical-scroll-proportion="0.3802817">
               <folding />
             </state>
           </provider>
@@ -134,24 +128,26 @@
         <entry file="file://$PROJECT_DIR$/dataaccess/src/main/java/com/springapp/mvc/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="5" column="61" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homepage.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="homepage.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/homepage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="6" selection-start="200" selection-end="200" vertical-scroll-proportion="0.16968326">
+            <state line="12" column="19" selection-start="403" selection-end="403" vertical-scroll-proportion="-7.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="product.tag" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/product.tag">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="0" selection-start="1877" selection-end="1877" vertical-scroll-proportion="0.0">
+            <state line="8" column="12" selection-start="155" selection-end="155" vertical-scroll-proportion="-5.0">
               <folding />
             </state>
           </provider>
@@ -160,7 +156,7 @@
       <file leaf-file-name="productDisplay.tag" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/productDisplay.tag">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="12" column="13" selection-start="236" selection-end="236" vertical-scroll-proportion="-7.5">
               <folding />
             </state>
           </provider>
@@ -193,10 +189,11 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/header.tag" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/styles/header.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/menu.tag" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/styles/style-guide.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/productDisplay.tag" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/homepage.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/product.tag" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/productDisplay.tag" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/styles/style-guide.css" />
       </list>
     </option>
   </component>
@@ -658,7 +655,6 @@
     </configuration>
     <configuration default="false" name="Tomcat 7.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8000/" />
-      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="carkoo:war exploded">
           <settings>
@@ -807,7 +803,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="790" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -831,8 +827,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.7716418" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30631277" sideWeight="0.7716418" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22835821" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30631277" sideWeight="0.60597014" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39402986" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -979,6 +975,15 @@
     <entry file="file://$PROJECT_DIR$/dataaccess/src/main/java/com/springapp/mvc/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="61" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="0" selection-start="1877" selection-end="1877" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -990,37 +995,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/styles/style-guide.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="20" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/menu.tag">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="3" selection-start="159" selection-end="205" vertical-scroll-proportion="-5.0">
+        <state line="1" column="44" selection-start="40" selection-end="40" vertical-scroll-proportion="-0.625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/productDisplay.tag">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+        <state line="12" column="13" selection-start="236" selection-end="236" vertical-scroll-proportion="-7.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/product.tag">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="1877" selection-end="1877" vertical-scroll-proportion="0.0">
+        <state line="8" column="12" selection-start="155" selection-end="155" vertical-scroll-proportion="-5.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/homepage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="6" selection-start="200" selection-end="200" vertical-scroll-proportion="0.16968326">
+        <state line="12" column="19" selection-start="403" selection-end="403" vertical-scroll-proportion="-7.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/styles/style-guide.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="138" selection-end="138" vertical-scroll-proportion="0.3802817">
           <folding />
         </state>
       </provider>
