@@ -1,0 +1,21 @@
+.product {
+    height: 400px;
+    margin-top: 20px;
+}
+
+.product .title {
+    background-color: lightgrey;
+    height:50px;
+}
+
+
+.product .photo {
+    background-color: red;
+    height:150px;
+}
+
+
+.product .info {
+    background-color: lightgrey;
+    height:50px;
+}

@@ -1,12 +1,10 @@
-<div class="row">
-    <div class="menu">
-        <ul>
-            <li>
-                Singapore
-            </li>
-            <li>
-                Beijing
-            </li>
-        </ul>
-    </div>
+<div class="menu">
+    <ul>
+        <li>
+            Singapore
+        </li>
+        <li>
+            Beijing
+        </li>
+    </ul>
 </div>

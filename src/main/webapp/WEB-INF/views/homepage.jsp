@@ -6,13 +6,18 @@
 <head>
     <title>Welcome</title>
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/styles/style-guide.css"/>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/styles/product.css"/>
 </head>
-<body>
-<ck:header/>
-<ck:menu/>
-<div class="content">
-    <ck:productDisplay/>
-</div>
+<body class="body">
+    <div class="row">
+        <ck:header/>
+    </div>
+    <div class="row">
+        <ck:menu/>
+    </div>
+    <div class="content">
+        <ck:productDisplay/>
+    </div>
 
 </body>
 </html>
