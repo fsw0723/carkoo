@@ -20,9 +20,10 @@ public class HomepageController {
     ApplicationContext ctx = new AnnotationConfigApplicationContext(SpringMongoConfig.class);
     MongoOperations mongoOperation = (MongoOperations) ctx.getBean("mongoTemplate");
 
-	@RequestMapping(value="/", method = RequestMethod.GET)
-	public ModelAndView printWelcome(ModelMap model) {
-
+	@RequestMapping(value="/homepage", method = RequestMethod.GET)
+	public ModelAndView renderHomepage(ModelMap model) {
+        //Car car = new Car("car2","China","info",28);
+        //mongoOperation.save(car);
         List<Car> cars = mongoOperation.findAll(Car.class);
         model.addAttribute("cars", cars);
 		model.addAttribute("message", "Hello world!");
