@@ -1,5 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="ck" tagdir="/WEB-INF/tags" %>
 
 <html>
@@ -16,7 +17,7 @@
         <ck:menu/>
     </div>
     <div class="content">
-        <ck:productDisplay/>
+        <ck:productDisplay cars="${cars}"></ck:productDisplay>
     </div>
 
 </body>

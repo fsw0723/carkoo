@@ -9,7 +9,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
 
@@ -21,12 +20,11 @@ public class HomepageController {
     MongoOperations mongoOperation = (MongoOperations) ctx.getBean("mongoTemplate");
 
 	@RequestMapping(value="/homepage", method = RequestMethod.GET)
-	public ModelAndView renderHomepage(ModelMap model) {
-        //Car car = new Car("car2","China","info",28);
-        //mongoOperation.save(car);
+	public String renderHomepage(ModelMap model) {
+//        Car car = new Car("car2","China","info",28);
+//        mongoOperation.save(car);
         List<Car> cars = mongoOperation.findAll(Car.class);
         model.addAttribute("cars", cars);
-		model.addAttribute("message", "Hello world!");
-		return new ModelAndView("homepage", model);
+		return "homepage";
 	}
 }
