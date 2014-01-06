@@ -4,7 +4,7 @@
         ${car.name}
     </div>
     <div class="photo">
-        photo
+        <img src=${car.photoUrl} height="100%" width="100%"/>
     </div>
     <div class="info">
         ${car.information}

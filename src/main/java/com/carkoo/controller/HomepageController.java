@@ -21,7 +21,7 @@ public class HomepageController {
 
 	@RequestMapping(value="/homepage", method = RequestMethod.GET)
 	public String renderHomepage(ModelMap model) {
-//        Car car = new Car("car2","China","info",28);
+//        Car car = new Car("car2","China","info","http://www.extremetech.com/wp-content/uploads/2012/12/VWXL1-1024-640x426.jpg",28);
 //        mongoOperation.save(car);
         List<Car> cars = mongoOperation.findAll(Car.class);
         model.addAttribute("cars", cars);

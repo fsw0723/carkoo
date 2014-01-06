@@ -12,12 +12,17 @@ public class Car {
     @NotEmpty
     private String name;
     private String location;
+    private String information;
+    private String photoUrl;
 
-    public Car(String name, String location, String information, double price) {
+
+    private double price;
+
+    public Car(String name, String location, String information, String photoUrl, double price) {
         this.name = name;
         this.location = location;
         this.information = information;
-
+        this.photoUrl = photoUrl;
         this.price = price;
     }
 
@@ -45,6 +50,14 @@ public class Car {
         this.information = information;
     }
 
+    public String getPhotoUrl() {
+        return photoUrl;
+    }
+
+    public void setPhotoUrl(String photoUrl) {
+        this.photoUrl = photoUrl;
+    }
+
     public double getPrice() {
         return price;
     }
@@ -53,6 +66,4 @@ public class Car {
         this.price = price;
     }
 
-    private String information;
-    private double price;
 }
