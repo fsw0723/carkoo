@@ -1,6 +1,6 @@
 *{margin:0;padding:0;}
 
-.body {
+body {
     margin: 20px 0px 0px;
 }
 
@@ -18,6 +18,14 @@
 .logo{
     background-color: lightgrey;
     height: 50px;
+    width: 50%;
+    display: inline-block;
+}
+
+.login{
+    width: 50%;
+    float: right;
+    text-align: right;
 }
 
 /*         menu         */

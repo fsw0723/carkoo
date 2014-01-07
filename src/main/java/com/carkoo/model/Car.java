@@ -1,13 +1,15 @@
 package com.carkoo.model;
 
-import org.bson.types.ObjectId;
 import org.hibernate.validator.constraints.NotEmpty;
+import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection = "cars")
 public class Car {
 
-    protected ObjectId id;
+
+    @Id
+    protected String id;
 
     @NotEmpty
     private String name;
@@ -17,6 +19,8 @@ public class Car {
 
 
     private double price;
+
+    public Car(){}
 
     public Car(String name, String location, String information, String photoUrl, double price) {
         this.name = name;
@@ -64,6 +68,10 @@ public class Car {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    public String getId() {
+        return id;
     }
 
 }

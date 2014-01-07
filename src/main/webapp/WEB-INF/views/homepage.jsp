@@ -9,9 +9,9 @@
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/styles/style-guide.css"/>
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/styles/product.css"/>
 </head>
-<body class="body">
+<body>
     <div class="row">
-        <ck:header/>
+        <jsp:include page="header.jsp"/>
     </div>
     <div class="row">
         <ck:menu/>
