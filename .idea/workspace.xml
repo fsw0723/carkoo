@@ -4,14 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" line="5" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e403246-d8d7-46c6-a617-ef27632e306c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/carkoo/controller/HomepageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/carkoo/controller/HomepageController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/carkoo/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/com/carkoo/controller/LoginController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carkoo.iml" afterPath="$PROJECT_DIR$/carkoo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/carkoo_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/carkoo_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" />
+    <list default="true" id="2e403246-d8d7-46c6-a617-ef27632e306c" name="Default" comment="login logout&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="carkoo.iws" />
@@ -1194,7 +1187,7 @@
       <workItem from="1387104435242" duration="971000" />
       <workItem from="1387105434814" duration="11749000" />
       <workItem from="1387172594501" duration="11000" />
-      <workItem from="1388914807923" duration="43847000" />
+      <workItem from="1388914807923" duration="43886000" />
     </task>
     <task id="LOCAL-00001" summary="add raw product display view">
       <created>1385827517372</created>
@@ -1232,18 +1225,22 @@
       <created>1389083971584</created>
       <updated>1389083971584</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="login logout">
+      <created>1389336580549</created>
+      <updated>1389336580549</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78331000" />
+    <option name="totallyTimeSpent" value="78370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="790" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25297618" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25297618" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886904" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1300,7 +1297,8 @@
     <MESSAGE value="include photo url in model" />
     <MESSAGE value="add car detail page" />
     <MESSAGE value="login page" />
-    <option name="LAST_COMMIT_MESSAGE" value="login page" />
+    <MESSAGE value="login logout" />
+    <option name="LAST_COMMIT_MESSAGE" value="login logout" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

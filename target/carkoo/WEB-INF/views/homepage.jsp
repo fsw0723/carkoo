@@ -1,18 +1,24 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="ck" tagdir="/WEB-INF/tags" %>
 
 <html>
 <head>
     <title>Welcome</title>
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/styles/style-guide.css"/>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/styles/product.css"/>
 </head>
 <body>
-<ck:header/>
-<ck:menu/>
-<div class="content">
-    <ck:productDisplay/>
-</div>
+    <div class="row">
+        <jsp:include page="header.jsp"/>
+    </div>
+    <div class="row">
+        <ck:menu/>
+    </div>
+    <div class="content">
+        <ck:productDisplay cars="${cars}"></ck:productDisplay>
+    </div>
 
 </body>
 </html>
