@@ -5,6 +5,8 @@ import com.carkoo.model.Car;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.data.mongodb.core.MongoOperations;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -24,6 +26,10 @@ public class HomepageController {
 //        Car car = new Car("car2","China","info","http://www.extremetech.com/wp-content/uploads/2012/12/VWXL1-1024-640x426.jpg",28);
 //        mongoOperation.save(car);
         List<Car> cars = mongoOperation.findAll(Car.class);
+        Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+        String name = auth.getName(); //get logged in username
+
+        model.addAttribute("username", name);
         model.addAttribute("cars", cars);
 		return "homepage";
 	}
