@@ -12,8 +12,8 @@
 <div class="content">
     <form name="registerForm" method="post">
         <div><label>Username</label> <input name="username"/></div>
-        <div><label>Password</label> <input name="password"/></div>
-        <div><label>Confirm Password</label> <input name="confirmPassword"/></div>
+        <div><label>Password</label> <input name="password" type="password"/></div>
+        <div><label>Confirm Password</label> <input name="confirmPassword" type="password"/></div>
         <input type="submit" value="submit"/>
     </form>
 </div>
