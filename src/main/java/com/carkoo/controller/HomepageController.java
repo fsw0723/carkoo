@@ -21,15 +21,16 @@ public class HomepageController {
     ApplicationContext ctx = new AnnotationConfigApplicationContext(SpringMongoConfig.class);
     MongoOperations mongoOperation = (MongoOperations) ctx.getBean("mongoTemplate");
 
-	@RequestMapping(value="/homepage", method = RequestMethod.GET)
-	public String renderHomepage(ModelMap model) {
+    @RequestMapping(value = "/homepage", method = RequestMethod.GET)
+    public String renderHomepage(ModelMap model) {
 //        Car car = new Car("car2","China","info","http://www.extremetech.com/wp-content/uploads/2012/12/VWXL1-1024-640x426.jpg",28);
 //        mongoOperation.save(car);
         List<Car> cars = mongoOperation.findAll(Car.class);
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
-        String name = auth.getName(); //get logged in username
-
-        model.addAttribute("username", name);
+        if (auth != null) {
+            String name = auth.getName(); //get logged in username
+            model.addAttribute("username", name);
+        }
         model.addAttribute("cars", cars);
 		return "homepage";
 	}

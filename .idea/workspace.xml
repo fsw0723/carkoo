@@ -2,17 +2,16 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" line="5" />
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/carkoo/Service/UserDetailService.java" line="18" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/carkoo/Service/UserDetailService.java" line="22" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e403246-d8d7-46c6-a617-ef27632e306c" name="Default" comment="login logout&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/carkoo/Service/MongoUseImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/carkoo/controller/helper/RegisterForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/carkoo/model/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/carkoo/Service/UserDetailService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/carkoo/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/com/carkoo/controller/LoginController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" />
+    <list default="true" id="2e403246-d8d7-46c6-a617-ef27632e306c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/carkoo/Service/UserDetailServiceTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/carkoo/Service/MongoUseImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/carkoo/Service/MongoUserImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/springapp/mvc/AppTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/springapp/mvc/AppTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/carkoo/controller/HomepageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/carkoo/controller/HomepageController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/carkoo/Service/UserDetailService.java" afterPath="$PROJECT_DIR$/src/main/java/com/carkoo/Service/UserDetailService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -72,68 +71,7 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/carkoo/Service/UserDetailService.java" line="19" class="com.carkoo.Service.UserDetailService" package="com.carkoo.Service">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/carkoo/Service/UserDetailService.java" line="18" class="com.carkoo.Service.UserDetailService" package="com.carkoo.Service">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/carkoo/Service/MongoUseImpl.java" line="22" class="com.carkoo.Service.MongoUseImpl" package="com.carkoo.Service">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/carkoo/Service/MongoUseImpl.java" line="23" class="com.carkoo.Service.MongoUseImpl" package="com.carkoo.Service">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -146,16 +84,16 @@
       <file leaf-file-name="CarDetailController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/carkoo/controller/CarDetailController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="5" selection-start="1277" selection-end="1277" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="540">
+            <state line="28" column="5" selection-start="1277" selection-end="1277" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDetailService.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="UserDetailService.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/carkoo/Service/UserDetailService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="46" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="450">
+            <state line="23" column="0" selection-start="878" selection-end="878" vertical-scroll-proportion="0.65217394" vertical-offset="0" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
@@ -164,7 +102,7 @@
       <file leaf-file-name="HomepageController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/carkoo/controller/HomepageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="62" selection-start="1412" selection-end="1412" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+            <state line="29" column="37" selection-start="1385" selection-end="1385" vertical-scroll-proportion="0.0" vertical-offset="290" max-vertical-offset="630">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -175,16 +113,7 @@
       <file leaf-file-name="homepage.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/homepage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="29" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="435">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="38" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="360">
+            <state line="11" column="6" selection-start="537" selection-end="537" vertical-scroll-proportion="-5.625" vertical-offset="30" max-vertical-offset="435">
               <folding />
             </state>
           </provider>
@@ -193,16 +122,16 @@
       <file leaf-file-name="HomepageControllerTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/carkoo/controller/HomepageControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="34" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="660">
+            <state line="33" column="8" selection-start="1310" selection-end="1310" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="LoginController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/carkoo/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="96" selection-start="1600" selection-end="1600" vertical-scroll-proportion="1.1536144" vertical-offset="97" max-vertical-offset="705">
+            <state line="25" column="5" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0" vertical-offset="97" max-vertical-offset="705">
               <folding />
             </state>
           </provider>
@@ -211,25 +140,16 @@
       <file leaf-file-name="spring-security.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="4" selection-start="787" selection-end="787" vertical-scroll-proportion="-8.4" vertical-offset="15" max-vertical-offset="450">
+            <state line="23" column="72" selection-start="1177" selection-end="1177" vertical-scroll-proportion="-8.92" vertical-offset="122" max-vertical-offset="450">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MongoUseImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/carkoo/Service/MongoUseImpl.java">
+      <file leaf-file-name="MongoUserImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/carkoo/Service/MongoUserImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="848" selection-end="848" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="480">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/carkoo/model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="4" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="840">
+            <state line="19" column="59" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
               <folding />
             </state>
           </provider>
@@ -288,19 +208,22 @@
         <option value="$PROJECT_DIR$/src/main/webapp/static/styles/style-guide.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/detail.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/carkoo/controller/helper/RegisterForm.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/carkoo/Service/UserDetailService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/carkoo/Service/MongoUseImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/homepage.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/carkoo/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/carkoo/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/carkoo/Service/MongoUseImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/carkoo/Service/MongoUserImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/carkoo/Service/UserDetailService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/carkoo/Service/UserDetailServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/carkoo/Service/MongoUserImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/homepage.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/carkoo/controller/HomepageController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/carkoo/controller/LoginController.java" />
       </list>
     </option>
   </component>
@@ -483,6 +406,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carkoo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carkoo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carkoo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carkoo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -767,13 +724,14 @@
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.carkoo.controller" />
-      <recent name="dataaccess" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
       <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.carkoo.Service" />
+      <recent name="com.carkoo.controller" />
+      <recent name="dataaccess" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.carkoo" />
@@ -817,6 +775,40 @@
       <envs />
       <patterns />
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserDetailServiceTest.shouldReturnSpringUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.carkoo.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="carkoo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.carkoo.Service" />
+      <option name="MAIN_CLASS_NAME" value="com.carkoo.Service.UserDetailServiceTest" />
+      <option name="METHOD_NAME" value="shouldReturnSpringUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -1177,13 +1169,15 @@
         </option>
       </method>
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.0" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.HomepageControllerTest.shouldRenderHomepage" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UserDetailServiceTest.shouldReturnSpringUser" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="2">
         <item index="0" class="java.lang.String" itemvalue="JUnit.HomepageControllerTest.shouldRenderHomepage" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UserDetailServiceTest.shouldReturnSpringUser" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1226,7 +1220,7 @@
       <workItem from="1387105434814" duration="11749000" />
       <workItem from="1387172594501" duration="11000" />
       <workItem from="1388914807923" duration="60979000" />
-      <workItem from="1389591891331" duration="490000" />
+      <workItem from="1389591891331" duration="4625000" />
     </task>
     <task id="LOCAL-00001" summary="add raw product display view">
       <created>1385827517372</created>
@@ -1268,11 +1262,15 @@
       <created>1389336580549</created>
       <updated>1389336580549</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="register">
+      <created>1389592405284</created>
+      <updated>1389592405284</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95953000" />
+    <option name="totallyTimeSpent" value="100088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="790" extended-state="6" />
@@ -1291,17 +1289,18 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1988555" sideWeight="0.7761194" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47329378" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4732143" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886904" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32738096" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39880952" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886904" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2840746" sideWeight="0.24925373" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21244635" sideWeight="0.60643566" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21244635" sideWeight="0.60643566" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21244635" sideWeight="0.3910891" order="4" side_tool="true" content_ui="tabs" />
@@ -1309,7 +1308,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32738096" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1374,7 +1372,8 @@
     <MESSAGE value="add car detail page" />
     <MESSAGE value="login page" />
     <MESSAGE value="login logout" />
-    <option name="LAST_COMMIT_MESSAGE" value="login logout" />
+    <MESSAGE value="register" />
+    <option name="LAST_COMMIT_MESSAGE" value="register" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1396,11 +1395,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/styles/style-guide.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="25" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="870" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/carkoo/model/Car.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300">
@@ -1461,7 +1455,9 @@
     </entry>
     <entry file="file://$USER_HOME$/.m2/settings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="11" selection-start="420" selection-end="420" vertical-scroll-proportion="0.36697248" vertical-offset="0" max-vertical-offset="327" />
+        <state line="8" column="11" selection-start="420" selection-end="420" vertical-scroll-proportion="0.36697248" vertical-offset="0" max-vertical-offset="327">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/carkoo/config/SpringMongoConfig.java">
@@ -1479,13 +1475,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/menu.tag">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/AppTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="45" selection-start="956" selection-end="1063" vertical-scroll-proportion="0.44759208" vertical-offset="22" max-vertical-offset="480">
           <folding />
         </state>
       </provider>
@@ -1522,13 +1511,6 @@
             <element signature="e#1494#1495#0" expanded="false" />
             <element signature="e#1519#1520#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="38" selection-start="1757" selection-end="1757" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="2955">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1577,11 +1559,6 @@
     <entry file="jar://$APPLICATION_HOME_DIR$/bin/~/.m2/repository/org/springframework/spring-webmvc/3.2.0.RELEASE/spring-webmvc-3.2.0.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="111" column="19" selection-start="7547" selection-end="7547" vertical-scroll-proportion="-4.2" vertical-offset="1545" max-vertical-offset="1995" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/bin/~/.m2/repository/org/springframework/security/spring-security-core/3.2.0.RELEASE/spring-security-core-3.2.0.RELEASE.jar!/org/springframework/security/core/userdetails/User.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="188" selection-end="188" vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="840" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/carkoo/controller/helper/RegisterForm.java">
@@ -1661,10 +1638,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/carkoo/Service/UserDetailService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="46" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+        <state line="13" column="38" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="360">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/carkoo/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="5" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0" vertical-offset="97" max-vertical-offset="705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/bin/~/.m2/repository/org/springframework/security/spring-security-core/3.2.0.RELEASE/spring-security-core-3.2.0.RELEASE.jar!/org/springframework/security/core/userdetails/User.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="11" selection-start="932" selection-end="932" vertical-scroll-proportion="0.41886792" vertical-offset="144" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/carkoo/Service/UserDetailServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="133" selection-start="714" selection-end="714" vertical-scroll-proportion="0.63793105" vertical-offset="160" max-vertical-offset="570">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1675,60 +1675,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="38" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/homepage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="29" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/carkoo/Service/MongoUseImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="848" selection-end="848" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/carkoo/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+        <state line="9" column="0" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="14" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="185" column="41" selection-start="6123" selection-end="6123" vertical-scroll-proportion="0.49295774" vertical-offset="2600" max-vertical-offset="2955">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/carkoo/controller/HomepageControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="34" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+        <state line="33" column="8" selection-start="1310" selection-end="1310" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/homepage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="6" selection-start="537" selection-end="537" vertical-scroll-proportion="-5.625" vertical-offset="30" max-vertical-offset="435">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/carkoo/controller/HomepageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="62" selection-start="1412" selection-end="1412" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+        <state line="29" column="37" selection-start="1385" selection-end="1385" vertical-scroll-proportion="0.0" vertical-offset="290" max-vertical-offset="630">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/carkoo/Service/MongoUserImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="4" selection-start="787" selection-end="787" vertical-scroll-proportion="-8.4" vertical-offset="15" max-vertical-offset="450">
+        <state line="19" column="59" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/carkoo/controller/LoginController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="96" selection-start="1600" selection-end="1600" vertical-scroll-proportion="1.1536144" vertical-offset="97" max-vertical-offset="705">
+        <state line="23" column="72" selection-start="1177" selection-end="1177" vertical-scroll-proportion="-8.92" vertical-offset="122" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/carkoo/Service/UserDetailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="878" selection-end="878" vertical-scroll-proportion="0.65217394" vertical-offset="0" max-vertical-offset="375">
           <folding />
         </state>
       </provider>

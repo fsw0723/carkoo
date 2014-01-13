@@ -9,9 +9,7 @@ import org.springframework.data.mongodb.core.MongoOperations;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 
-import java.util.List;
-
-public class MongoUseImpl {
+public class MongoUserImpl {
     private Query query;
     // For Annotation
     ApplicationContext ctx = new AnnotationConfigApplicationContext(SpringMongoConfig.class);
@@ -20,7 +18,7 @@ public class MongoUseImpl {
     public User findByUsername(String username){
         query = new Query();
         query.addCriteria(Criteria.where("username").is(username));
-        List<User> user = mongoOperation.find(query, com.carkoo.model.User.class);
-        return user.get(0);
+        User user = mongoOperation.findOne(query, com.carkoo.model.User.class);
+        return user;
     }
 }
