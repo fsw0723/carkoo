@@ -12,6 +12,7 @@
         </c:when>
         <c:otherwise>
             <a href="/login">Login</a>
+            <a href="/register">Register</a>
         </c:otherwise>
     </c:choose>
 </div>
